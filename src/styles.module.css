@@ -1,0 +1,36 @@
+.container {
+  flex-flow: column nowrap;
+}
+
+.teamContainer {
+  flex-flow: row wrap;
+}
+.team {
+  flex: 1;
+}
+.team:first-of-type {
+  padding-right: 20px;
+  border-right: solid 1px black;
+}
+.team:last-of-type {
+  padding-left: 20px;
+}
+.summary {
+  padding-top: 50px;
+  flex: 0 0 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.debugContainer {
+  flex-flow: row wrap;
+}
+.debugContainer > * {
+  flex: 1;
+}
